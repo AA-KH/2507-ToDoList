@@ -1,14 +1,14 @@
 let tasks = [];
 
 loadTasks();
-renderTodo();
+
 
 document.getElementById("addBtn").addEventListener("click", addTodo);
 
 function addTodo(){
     let input = document.getElementById("taskInput");
     if(input.value === ""){
-        alert("Please enter a task!");
+        alert("Enter a task!");
         return;
     }
 
@@ -101,4 +101,6 @@ function loadTasks(){
     if(saved){
         tasks = JSON.parse(saved);
     }
+
+    renderTodo();
 }
