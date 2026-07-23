@@ -1,0 +1,88 @@
+body {
+    background-color: lightgray;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: 350px;
+    padding: 8px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+
+#addBtn {
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#addBtn:hover {
+    background-color: darkgreen;
+}
+
+li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+}
+
+li.completed {
+    background-color: lightgreen;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.edit-btn {
+    background-color: #9B8F00;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #7A7000;
+}
+
+.delete-btn {
+    background-color: #8B0000;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #660000;
+}
